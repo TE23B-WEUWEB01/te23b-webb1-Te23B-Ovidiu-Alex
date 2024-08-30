@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    background-image: url("./bilder/rusty-watson-XIarQA7Z0IQ-unsplash.jpg")
+}
+
+h1 {
+    color: rgb(27, 253, 7);
+    font-size: 65px;
+    font-family: "Sevillana", cursive;;
+}
+
+h2 {
+    color: rgb(10, 170, 244);
+    font-size: 40px;
+    font-family: "Playwrite CU", cursive;
+}
+
+p {
+    color: rgb(255, 53, 21);
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: darkturquoise;
+}
