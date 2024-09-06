@@ -1,0 +1,30 @@
+body {
+    background-color: aqua;
+}
+table {
+    background-color: cadetblue;
+    width: 1000px;
+    margin: auto;
+}
+caption {
+    background-color: floralwhite;
+    padding: 10px;
+    font-size: 50px;
+    color: floralwhite;
+    font-weight: bold;
+    background-image: url(bilder/seamless-pattern-2.jpg);
+}
+tr {
+
+}
+th {
+    padding: 15px;
+    font-size: 25px;
+}
+td {
+    background-color: burlywood;
+    padding: 10px;
+}
+img {
+    width: 150px;
+}
