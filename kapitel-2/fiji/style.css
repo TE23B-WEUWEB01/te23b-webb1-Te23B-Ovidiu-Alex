@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body {
+    background-image: url(./bilder/anders-wideskott-_QnPkc4C6E4-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1 {
+    font-family: "Lobster", sans-serif;
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 0 black;
+    margin-bottom: 150px;
+}
+h2 {
+    font-family: "Lobster", sans-serif;
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 3px 3px 0 black;
+    margin-top: 200px;
+}
+p {
+    font-family: "Lobster", sans-serif;
+    font-size: 25px;
+    margin-top: 200px;
+    margin-left: 720px;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: green;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
