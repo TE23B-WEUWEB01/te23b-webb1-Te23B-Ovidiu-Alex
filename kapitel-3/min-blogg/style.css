@@ -1,0 +1,44 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+
+}
+.kontainer {
+background-color:green;
+width: 700px;
+padding: 40px;
+margin: auto;
+margin-top: 20px;
+}
+.inlägg {
+color: blue;
+padding: 50px;
+margin-bottom: 40px;
+}
+h1 {
+
+}
+h2 {
+
+}
+img {
+    width: 100%;
+}
+.datum {
+
+}
+p {
+
+}
+div {
+    
+}
