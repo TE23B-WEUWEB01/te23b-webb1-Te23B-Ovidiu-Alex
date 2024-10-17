@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Orbitron:wght@400..900&display=swap');
+
+/* sidans layout */
+body {
+    background-image: url(./bilder/tycho-crater.webp);
+    color: white;
+    font-family: "Orbitron", sans-serif;
+}
+.kontainer {
+    width: 800px;
+    padding: 40px;
+}
+.box {
+    background-color: black;
+    padding: 50px;
+}
+h1 {
+    font-family: "Audiowide", serif;
+}
+h2 {
+
+}
+img {
+    width: 100%;
+}
+p {
+
+}

@@ -1,3 +1,14 @@
+/*färgpalleter*/
+
+:root {
+    /* CSS HEX */
+--sky-blue: #8ecae6ff;
+--blue-green: #219ebcff;
+--prussian-blue: #023047ff;
+--selective-yellow: #ffb703ff;
+--ut-orange: #fb8500ff;
+}
+
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -10,22 +21,22 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
     padding: 0;
 }
 body {
-
+    background-color: var(--sky-blue);
 }
 .kontainer {
-background-color:green;
+background-color: var(--prussian-blue);
 width: 700px;
 padding: 40px;
 margin: auto;
 margin-top: 20px;
 }
 .inlägg {
-color: blue;
+color: var(--ut-orange);
 padding: 50px;
 margin-bottom: 40px;
 }
 h1 {
-
+    color: var(--ut-orange);
 }
 h2 {
 
