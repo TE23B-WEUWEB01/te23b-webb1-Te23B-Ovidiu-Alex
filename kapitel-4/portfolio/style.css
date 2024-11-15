@@ -1,0 +1,90 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+/* Navigeringsmeny */
+nav ul {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+/* Rubriker och sektioner */
+header {
+    text-align: center;
+    padding: 20px;
+}
+section {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+h2 {
+    margin-bottom: 10px;
+    margin: 10px;
+}
+img {
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin: 10px;
+}
+p {
+    margin: 10px;
+}
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
+/* Flexbox-layout */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+/* Responsiv design */
+@media (min-width: 768px) {
+    section {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    section img {
+        margin: 20px;
+    }
+}
