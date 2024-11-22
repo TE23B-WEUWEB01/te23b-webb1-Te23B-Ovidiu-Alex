@@ -69,6 +69,7 @@ a {
 }
 a:hover {
     text-decoration: underline;
+    color: #b9c8f0;
 }
 /* Flexbox-layout */
 section {
