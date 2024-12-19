@@ -1,0 +1,46 @@
+body {
+    background-image: url(bilder/360_F_129820472_ag5Hs4J3xH4WsqybNxCGHTybUf5GAYdb.jpg);
+}
+.ruta {
+    width: 100px;
+    height: 100px;
+    background-color: #ff0000;
+    margin: 100px auto;
+    animation: bytFärgForm 5s infinite;
+}
+@keyframes bytFärgForm {
+    0% {
+        background-color: #ff0000;
+        transform: scale(1) translate(0);
+        opacity: 0;
+    }
+    50% {
+        background-color: #eeff00;
+        transform: scale(2)translate(200px);
+        box-shadow: 0 0 20px;
+        border-radius: 50%;
+        opacity: 1;
+    }
+    100% {
+        background-color: #22ff00;
+        transform: scale(1) translate(0);
+        opacity: 0;
+    }
+}
+/* Animer studsande emoji */
+
+.emoji {
+    font-size: 100px;
+    animation: studs 1s infinite;
+}
+@keyframes studs {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-150px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
