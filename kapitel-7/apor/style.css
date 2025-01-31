@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Moonrocks&display=swap');
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -14,14 +15,49 @@ width: 100%;
 }
 
 /* Sidan */
-body {}
+body {
+    background-image: url(./bilder/unnamed.jpg);
+}
 .kontainer {
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
 
+/* Bygga layouten */
+.kontainer {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: 
+    "sidhuvud sidhuvud"
+    "artiklarna sidebar"
+    "sidfot sidfot";
+}
+header {
+    grid-area: sidhuvud;
+    background-color: rosybrown;
+}
+main {
+    grid-area: artiklarna;
+    background-color: yellowgreen;
+}
+aside {
+    grid-area: sidebar;
+    background-color: magenta;
+}
+footer {
+    grid-area: sidfot;
+    background-color: lightslategray;
 }
 
 /* Sidhuvud */
-header {}
-header h1 {}
+header {
+    color: #FFF;
+    font-family: "Rubik Moonrocks", serif;
+}
+header h1 {
+    font-size: 80px;
+}
 header h2 {}
 
 /* Menyn */
@@ -32,11 +68,12 @@ header nav a:hover {}
 
 /* Sidans innehåll - artiklar, text mm */
 main {}
-main h3 {}
-main figure {}
-main figure img {}
-main figure img figcaption{}
-main p {}
+main article {}
+main article h3 {}
+main article figure {}
+main article figure img {}
+main article figure figcaption{}
+main article p {}
 
 /* Sidobar */
 aside {}
