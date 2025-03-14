@@ -15,3 +15,4 @@
 // var mening = helaNamnet + " hobby este " + hobby + " si hobby-ul meu costa " + kostnad + " kr/år. "
 // alert(mening);
 // // alert(helaNamnet);
+
