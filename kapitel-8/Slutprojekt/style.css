@@ -12,6 +12,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 img {
 width: 100%;
 }
+
 /* Grundläggande utseende */
 body {
     font-family: Arial, sans-serif;
@@ -19,6 +20,7 @@ body {
     background-color: #f4f4f4;
     color: #333;
 }
+
 .kontainer {
     max-width: 900px;
     margin: auto;
@@ -26,6 +28,107 @@ body {
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
-h1 {
-    
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+nav {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    background-color: #444;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a.aktiv,
+nav a:hover {
+    background-color: #ff6600;
+}
+
+main {
+    margin-top: 20px;
+}
+
+main h2 {
+    color: #ff6600;
+    font-size: 1.6em;
+}
+
+figure {
+    margin: 20px 0;
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.9em;
+    margin-top: 5px;
+    color: #555;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9em;
+    background-color: #eee;
+    border-top: 1px solid #ccc;
+}
+
+.sidfot a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.sidfot a:hover {
+    text-decoration: underline;
+}
+
+/* RESPONSIV DESIGN */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.4em;
+    }
+
+    nav a {
+        padding: 10px;
+        flex: 1 1 100%;
+        text-align: center;
+    }
+
+    main h2 {
+        font-size: 1.4em;
+    }
+
+    .kontainer {
+        padding: 15px;
+    }
+
+    figure img {
+        border-radius: 5px;
+    }
 }
